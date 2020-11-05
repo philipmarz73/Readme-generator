@@ -1,7 +1,9 @@
 // array of questions for user
 const questions = [
 
+
 ];
+console.log("hello World!");
 
 // function to write README file
 function writeToFile(fileName, data) {
