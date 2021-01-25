@@ -71,28 +71,17 @@ const questions = [
                 
             },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-];
-console.log("hello World!");
+            {
+                type: "input",
+                name: "test",
+                message: "Please enter Test Scenarios",
+              },
+              {
+                type: "input",
+                name: "questions",
+                message: "please enter your Questions",
+              },
+            ];
 
 // function to write README file
 function writeToFile(fileName, data) {
@@ -101,10 +90,23 @@ function writeToFile(fileName, data) {
 
 // function to initialize program
 function init() {
+    
     inquirer.prompt(questions)
     .then((response) => {
         console.log(response);
         writeToFile("ReadMe.md", generateMarkdown(response));
+      
+        
+    const README = Date.now();
+  inquirer.prompt(questions).then((response) => {
+    fs.writeFile("README.md", generateMarkdown(response), "utf8", (err) => {
+      if (err) throw err;
+    });
+  });
+}
+
+
+
     })
 }
 
