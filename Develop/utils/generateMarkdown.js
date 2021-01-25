@@ -49,34 +49,12 @@ function generateMarkdown(data) {
 `;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-`;
+function createIcon(license) {
+  if (license !== "NONE") {
+    return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+  }
+  return ``;
+  
 }
 
 module.exports = generateMarkdown;
