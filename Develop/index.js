@@ -91,10 +91,10 @@ function writeToFile(fileName, data) {
 // function to initialize program
 function init() {
     
-    inquirer.prompt(questions)
-    .then((response) => {
-        console.log(response);
-        writeToFile("ReadMe.md", generateMarkdown(response));
+    // inquirer.prompt(questions)
+    // .then((response) => {
+    //     console.log(response);
+    //     writeToFile("ReadMe.md", generateMarkdown(response));
       
         
     const README = Date.now();
@@ -107,8 +107,8 @@ function init() {
 
 
 
-    })
-}
+ 
+
 
 // function call to initialize program
 init();
