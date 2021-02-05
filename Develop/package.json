@@ -12,6 +12,7 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/philipmarz73/Readme-generator.git",
   "dependencies": {
     "inquirer": "^6.3.1"
   },
