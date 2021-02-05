@@ -1,5 +1,6 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
+  console.log("made to Markdown");
   return `# ${data.title}
 
   ${createIcon(data.license)}

@@ -1,5 +1,5 @@
 {
-  "name": "readmegenerator",
+  "name": "readme-generator",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,10 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/philipmarz73/Readme-generator.git",
+  "bugs": {
+    "url": "https://github.com/philipmarz73/Readme-generator/issues"
+  },
+  "homepage": "https://github.com/philipmarz73/Readme-generator#readme",
   "dependencies": {
     "inquirer": "^6.3.1"
   },
