@@ -25,4 +25,4 @@ I would like to thank my Instructor, Jonathan Watson, the TA's for this section 
 
 ## License
 
-&copy MIT
+&copy;MIT
